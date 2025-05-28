@@ -1,0 +1,36 @@
+﻿@page "/support"
+
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+
+
+@inject CatalogApiClient CatalogApiClient
+
+<PageTitle>Support</PageTitle>
+
+
+<div class="form-group">
+    <label>Soru sor: </label>
+    <div class="input-group mb-3">
+        <input type="text" id="query" class="form-control" @bind="queryTerm" />
+        <button id="btnSend" class="btn btn-primary" @onclick="DoSend" type="submit">Send</button>
+    </div>
+
+</div>
+
+@if (response != null)
+{
+    <p><em>@response</em></p>
+}
+
+@code{
+
+    private string queryTerm = default!;
+    private string response = default!;
+
+    private async Task DoSend(MouseEventArgs e)
+    {
+        response = "Loading...";
+        response = await CatalogApiClient.SupportProducts(queryTerm);
+    }
+}

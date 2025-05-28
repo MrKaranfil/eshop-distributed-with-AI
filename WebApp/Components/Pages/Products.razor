@@ -1,0 +1,52 @@
+﻿@page "/products"
+
+@inject CatalogApiClient catalogApiClient
+@attribute [StreamRendering(true)]
+@attribute [Microsoft.AspNetCore.OutputCaching.OutputCache(Duration = 5)]
+
+<PageTitle>Ürünler</PageTitle>
+
+
+<h1>Ürünler</h1>
+
+@if (products == null)
+{
+    <p>Yükleniyor...</p>
+}
+else if (products.Count == 0)
+{
+    <p>Ürün bulunamadı...</p>
+}
+else
+{
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in products)
+            {
+
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+}
+@code {
+    private List<Product>? products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await catalogApiClient.GetProducts();
+    }
+
+}

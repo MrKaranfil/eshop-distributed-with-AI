@@ -1,0 +1,44 @@
+@Basket_HostAddress = https://localhost:7204/basket
+@accessToken = eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxNWNsNW1LNEI4cXFBMHJLQ1M1STNsbmR6TDJGcG1VaHNwOFlxNVh0c0V3In0.eyJleHAiOjE3NDgxNzczNTUsImlhdCI6MTc0ODE3NzA1NSwianRpIjoiYjY5MjIzOWEtOWFhZS00MGIxLWEzM2ItMGE5MThhNTA1ZGUyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9lc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI3MzAxMzAzYy05ZDQxLTQxNzgtOTFiZC1iNzhmMDk4MTU2ZDAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJlc2hvcC1jbGllbnQiLCJzaWQiOiJhOWMwZTc2MC04OWEwLTQ1NmYtOTRkYS1jZWFiZTU2NGVmMGQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1lc2hvcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IlRlc3RlciBNZWhtZXQiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ0ZXN0IiwiZ2l2ZW5fbmFtZSI6IlRlc3RlciIsImZhbWlseV9uYW1lIjoiTWVobWV0IiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIn0.Ua3t4Zs4G8YRlndLe0OuxbeH1937slEJhEYdNy5sIk07vHOI0TletvsOHLgzsNlnWyEBiT7E2QKLuxMzPk3-mKm0VkMkQUzoDAdCnTXWtNiZNXqXVLZ_suU5bxu-WsfGyFM-kkchAlXI6CUfNQZR-oQZxXY1KXYsls7bYxb3b0GiBSwHeL97AFmhxD6qWU77kxG6J0Da6RR2exBN7RQJuxkHtcm68Evv0Ms651tS8JAlYAc8CCHVgYYcQaXjjnVHwAfMVram3sHNvYSLH279rKD7-qa9hWR4w2XWH-TVoxiy2xVrlDz4CSXSooYc9AjtKlm-JuX2EDzFKciIKoHFVQ
+
+GET {{Basket_HostAddress}}/swn
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+
+POST {{Basket_HostAddress}}
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+{
+  "UserName":"swn",
+  "Items":[
+    {
+      "Quantity":2,
+      "Color":"Red",
+      "Price":500,
+      "ProductId":1,
+      "ProductName":"Solar Powered Flashlight"
+    },
+    {
+      "Quantity":3,
+      "Color":"Red 3",
+      "Price":5003,
+      "ProductId":13,
+      "ProductName":"Solar Powered Flashlight3"
+    }
+  ]
+}
+
+###
+
+DELETE {{Basket_HostAddress}}/swn
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+### 
+
+POST http://localhost:8080/realms/eshop/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=eshop-client&scope=email openid&username=test&password=123123

@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5316CF-DBE6-4811-AAE0-34F18A37A316}|Catalog\\Catalog.csproj|c:\\users\\users1\\source\\repos\\eshop-distributed\\catalog\\services\\productaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5316CF-DBE6-4811-AAE0-34F18A37A316}|Catalog\\Catalog.csproj|solutionrelative:catalog\\services\\productaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5316CF-DBE6-4811-AAE0-34F18A37A316}|Catalog\\Catalog.csproj|c:\\users\\users1\\source\\repos\\eshop-distributed\\catalog\\endpoints\\productendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5316CF-DBE6-4811-AAE0-34F18A37A316}|Catalog\\Catalog.csproj|solutionrelative:catalog\\endpoints\\productendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351E6F1-B484-4BCF-BE4E-C644DA931FA0}|WebApp\\WebApp.csproj|c:\\users\\users1\\source\\repos\\eshop-distributed\\webapp\\apiclients\\catalogapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351E6F1-B484-4BCF-BE4E-C644DA931FA0}|WebApp\\WebApp.csproj|solutionrelative:webapp\\apiclients\\catalogapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{577012A9-B567-44C0-87B6-783AAF45D7FB}|AppHost\\AppHost.csproj|c:\\users\\users1\\source\\repos\\eshop-distributed\\apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{577012A9-B567-44C0-87B6-783AAF45D7FB}|AppHost\\AppHost.csproj|solutionrelative:apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5316CF-DBE6-4811-AAE0-34F18A37A316}|Catalog\\Catalog.csproj|c:\\users\\users1\\source\\repos\\eshop-distributed\\catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5316CF-DBE6-4811-AAE0-34F18A37A316}|Catalog\\Catalog.csproj|solutionrelative:catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351E6F1-B484-4BCF-BE4E-C644DA931FA0}|WebApp\\WebApp.csproj|c:\\users\\users1\\source\\repos\\eshop-distributed\\webapp\\components\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0351E6F1-B484-4BCF-BE4E-C644DA931FA0}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\AppHost\\Program.cs",
+              "RelativeToolTip": "AppHost\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:43:01.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\Catalog\\Program.cs",
+              "RelativeDocumentMoniker": "Catalog\\Program.cs",
+              "ToolTip": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\Catalog\\Program.cs",
+              "RelativeToolTip": "Catalog\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:42:19.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\Catalog\\Endpoints\\ProductEndpoint.cs",
+              "RelativeDocumentMoniker": "Catalog\\Endpoints\\ProductEndpoint.cs",
+              "ToolTip": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\Catalog\\Endpoints\\ProductEndpoint.cs",
+              "RelativeToolTip": "Catalog\\Endpoints\\ProductEndpoint.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:38:42.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Search.razor",
+              "DocumentMoniker": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\WebApp\\Components\\Pages\\Search.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Search.razor",
+              "ToolTip": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\WebApp\\Components\\Pages\\Search.razor",
+              "RelativeToolTip": "WebApp\\Components\\Pages\\Search.razor",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T19:32:36.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatalogApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\WebApp\\ApiClients\\CatalogApiClient.cs",
+              "RelativeDocumentMoniker": "WebApp\\ApiClients\\CatalogApiClient.cs",
+              "ToolTip": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\WebApp\\ApiClients\\CatalogApiClient.cs",
+              "RelativeToolTip": "WebApp\\ApiClients\\CatalogApiClient.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:30:24.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductAIService.cs",
+              "DocumentMoniker": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\Catalog\\Services\\ProductAIService.cs",
+              "RelativeDocumentMoniker": "Catalog\\Services\\ProductAIService.cs",
+              "ToolTip": "C:\\Users\\Users1\\source\\repos\\eshop-distributed\\Catalog\\Services\\ProductAIService.cs",
+              "RelativeToolTip": "Catalog\\Services\\ProductAIService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:32:12.047Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
